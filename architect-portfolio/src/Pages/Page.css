@@ -1,0 +1,32 @@
+.page h2 {
+  margin-bottom: 0.5rem;
+}
+
+.page p {
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .hero-placeholder {
+    height: 200px;
+  }
+
+  .photo-placeholder {
+    height: 100px;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+}
