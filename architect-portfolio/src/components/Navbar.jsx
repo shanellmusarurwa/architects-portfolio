@@ -10,19 +10,17 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="navbar-top">
+      <div className="navbar-container">
         <img src="./src/assets/logo.png" alt="Logo" className="logo-img" />
         <div className="hamburger" onClick={toggleMenu}>
-          {menuOpen ? <FaTimes /> : <FaBars />}
+          {menuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
         </div>
+        <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
+          <li><Link to="/" onClick={closeMenu}>Home</Link></li>
+          <li><Link to="/gallery" onClick={closeMenu}>Photo Gallery</Link></li>
+          <li><Link to="/projects" onClick={closeMenu}>Our Projects</Link></li>
+        </ul>
       </div>
-
-      <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
-        <li><Link to="/" onClick={closeMenu}>Home</Link></li>
-        <li><Link to="/gallery" onClick={closeMenu}>Photo Gallery</Link></li>
-        <li><Link to="/projects" onClick={closeMenu}>Our Projects</Link></li>
-        <li><Link to="/contact" onClick={closeMenu}>Contact Us</Link></li>
-      </ul>
     </nav>
   );
 }
