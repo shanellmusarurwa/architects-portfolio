@@ -1,6 +1,6 @@
 // LandingPage.jsx
 import React from 'react';
-import './sections.css';
+import './Sections.css';
 import { FiArrowRight } from 'react-icons/fi';
 
 
