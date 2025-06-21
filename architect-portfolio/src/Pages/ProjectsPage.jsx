@@ -7,19 +7,19 @@ const ProjectsPage = () => {
       title: "Sample Project",
       description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1990s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
       cta: "View More",
-      image: "/public/assets/image 30.png"
+      image: "/assets/image 30.png"
     },
     {
       title: "GATHIC FORCE?",
       description: "Lorem Ipsum was originally dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1990s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
       cta: "View More",
-      image: "/public/assets/image 32.png"
+      image: "/assets/image 32.png"
     },
      {
       title: "GATHIC FORCE?",
       description: "Lorem Ipsum was originally dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1990s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
       cta: "View More",
-      image: "/public/assets/image 33.png"
+      image: "/assets/image 33.png"
     }
   ];
 
@@ -27,8 +27,8 @@ const ProjectsPage = () => {
     <section className="projects-section">
       <div className="container">
         <h1 className="section-title">
-           <span class="faded">Our</span><br />
-          <span class="black">Projects</span>
+           <span className="faded">Our</span><br />
+          <span className="black">Projects</span>
 
         </h1>
         

@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <img src="/public/assets/logo.png" alt="Logo" className="logo-img" />
+        <img src="/assets/logo.png" alt="Logo" className="logo-img" />
         <div className="hamburger" onClick={toggleMenu}>
           {menuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
         </div>
