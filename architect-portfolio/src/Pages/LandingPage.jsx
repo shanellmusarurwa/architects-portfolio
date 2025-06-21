@@ -33,6 +33,9 @@ const LandingPage = () => {
             src="/assets/Rectangle 6.png" 
             alt="Project visual" 
           />
+          <button className="view-project-btn">
+                View Project
+          </button>
         </div>
       </div>
       </section>
@@ -111,6 +114,12 @@ const LandingPage = () => {
           {/* Top row - 2 projects */}
           <div className="project-card top-row">
             <img src="/assets/Rectangle 17.png" alt="Project 1" />
+            <div className="project-overlay">
+              <h3>Sample Project</h3>
+                <button className="project-view-btn">
+                  View More <FiArrowRight className="arrow-icon" />
+                </button>
+            </div>
           </div>
           
           <div className="project-card top-row">

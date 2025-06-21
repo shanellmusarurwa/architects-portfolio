@@ -148,6 +148,8 @@
   margin-bottom: 2rem;
   align-items: center;
   background-color: #f8f8f8ef;
+  border-radius: 5px; 
+  overflow: hidden; 
 }
 
 .project-image {
@@ -187,17 +189,34 @@
 }
 
 .project-cta {
-  display: inline-block;
-  color: #0066cc;
+  display: inline-flex;
+  align-items: center;
+  color: #000;
   text-decoration: none;
   font-size: 1.1rem;
   transition: all 0.3s ease;
-  border-bottom: 2px solid transparent;
+  padding: 0.5rem 1rem; 
+  border: 1px solid transparent;
+  background-color: #fff; 
+  border-radius: 4px; 
+  gap: 0.5rem;
 }
 
+.project-cta::after {
+  content: "→"; /* Arrow character */
+  transition: transform 0.3s ease; /* For hover effect */
+}
+
+
 .project-cta:hover {
-  color: #004499;
-  border-bottom-color: #004499;
+  background-color: #fff;
+  color: black;
+  border-color: #0066cc;
+}
+
+.project-cta:hover::after {
+  transform: translateX(3px); 
+  color: #fff;
 }
 
 /* Responsive Design */
