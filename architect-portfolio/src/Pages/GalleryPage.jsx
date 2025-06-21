@@ -12,48 +12,48 @@ const PhotoGallery = () => {
     },
     {
       id: 2,
-      src: './public/assets/Rectangle 23.png'
+      src: '/public/assets/Rectangle 23.png'
       
     },
     {
       id: 3,
-      src: './public/assets/Rectangle 24.png'
+      src: '/public/assets/Rectangle 24.png'
     
     },
     {
       id: 4,
-      src: './public/assets/Rectangle 25.png'
+      src: '/public/assets/Rectangle 25.png'
       
     },
     {
       id: 5,
-      src: './public/assets/Rectangle 26.png'
+      src: '/public/assets/Rectangle 26.png'
       
     },
     // Bottom row images (DEFEAL PROJECT)
     {
       id: 6,
-      src: './public/assets/Rectangle 27.png'
+      src: '/public/assets/Rectangle 27.png'
       
     },
     {
       id: 7,
-      src: './public/assets/Rectangle 28.png'
+      src: '/public/assets/Rectangle 28.png'
       
     },
     {
       id: 8,
-      src: './public/assets/Rectangle 29.png'
+      src: '/public/assets/Rectangle 29.png'
       
     },
     {
       id: 9,
-      src: './public/assets/Rectangle 30.png'
+      src: '/public/assets/Rectangle 30.png'
       
     },
     {
       id: 10,
-      src: './public/assets/Rectangle 31.png'
+      src: '/public/assets/Rectangle 31.png'
       
     }
   ];

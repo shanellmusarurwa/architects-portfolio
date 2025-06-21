@@ -30,7 +30,7 @@ const LandingPage = () => {
         {/* Image */}
         < div className="hero-image">
           <img 
-            src="./public/assets/Rectangle 6.png" 
+            src="/public/assets/Rectangle 6.png" 
             alt="Project visual" 
           />
         </div>
@@ -45,13 +45,13 @@ const LandingPage = () => {
     {/* Left Column - Images */}
     <div className="images-column">
       <div className="small-image top">
-        <img src="./public/assets/Rectangle 9.png" alt="Architecture detail 1" />
+        <img src="/public/assets/Rectangle 9.png" alt="Architecture detail 1" />
       </div>
       <div className="small-image bottom">
-        <img src="./public/assets/Rectangle 10.png" alt="Architecture detail 2" />
+        <img src="/public/assets/Rectangle 10.png" alt="Architecture detail 2" />
       </div>
       <div className="large-image">
-        <img src="./public/assets/Rectangle 8.png" alt="Architecture overview" />
+        <img src="/public/assets/Rectangle 8.png" alt="Architecture overview" />
       </div>
     </div>
 
@@ -110,16 +110,16 @@ const LandingPage = () => {
         <div className="projects-grid">
           {/* Top row - 2 projects */}
           <div className="project-card top-row">
-            <img src="./public/assets/Rectangle 17.png" alt="Project 1" />
+            <img src="/public/assets/Rectangle 17.png" alt="Project 1" />
           </div>
           
           <div className="project-card top-row">
-            <img src="./public/assets/image 15.png" alt="Project 2" />
+            <img src="/public/assets/image 15.png" alt="Project 2" />
           </div>
           
           {/* Bottom row - 3 projects */}
           <div className="project-card">
-            <img src="./public/assets/image 16.png" alt="Project 3" />
+            <img src="/public/assets/image 16.png" alt="Project 3" />
           </div>
           
           <div className="project-card">
@@ -127,7 +127,7 @@ const LandingPage = () => {
           </div>
           
           <div className="project-card">
-            <img src="./public/assets/image 18.png" alt="Project 5" />
+            <img src="/public/assets/image 18.png" alt="Project 5" />
           </div>
         </div>
 
@@ -178,7 +178,7 @@ const LandingPage = () => {
       
       <div className="image-section">
         <img 
-          src="./public/assets/hassan.jpg" 
+          src="/public/assets/hassan.jpg" 
           alt="Contact illustration" 
           className="contact-image"
         />
