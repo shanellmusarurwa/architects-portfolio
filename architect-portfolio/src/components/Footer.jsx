@@ -9,7 +9,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-column logo-column">
-          <img src="./src/assets/Group 11 1.png" alt="Logo" srcset="" />
+          <img src="./public/assets/Group 11 1.png" alt="Logo" srcset="" />
         </div>
         <div className="footer-column">
           <h3>Information</h3>
